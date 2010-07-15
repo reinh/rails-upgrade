@@ -25,7 +25,8 @@ module RailsUpgrade
     
     class RouteRedrawer
       attr_accessor :routes
-      cattr_accessor :stack
+
+      class << self; attr_accessor :stack end
       
       def initialize
         @routes = []
