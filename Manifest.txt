@@ -4,8 +4,13 @@ PostInstall.txt
 README.rdoc
 Rakefile
 bin/rails-upgrade
-lib/rails-upgrade.rb
 lib/rails-upgrade/cli.rb
+lib/rails-upgrade/errors.rb
+lib/rails-upgrade/upgraders
+lib/rails-upgrade/upgraders/check.rb
+lib/rails-upgrade/upgraders/gems.rb
+lib/rails-upgrade/upgraders/routes.rb
+lib/rails-upgrade.rb
 script/console
 script/destroy
 script/generate
